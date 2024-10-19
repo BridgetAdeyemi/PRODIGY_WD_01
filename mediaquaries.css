@@ -1,0 +1,228 @@
+/*Media Quaries (max-width 1123px) */
+@media (max-width: 1123px) {
+  .hero-section .navbar .navbar-links {
+    position: absolute;
+    top: 110%;
+    right: -110%;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    text-align: center;
+    padding: 4rem;
+    z-index: 999;
+    backdrop-filter: blur(27px);
+    border-radius: 9px;
+  }
+  .hero-section .navbar .navbar-links a {
+    color: var(--brown);
+    padding-top: 1.5rem;
+    font-size: 1.6rem;
+  }
+  .hero-section .navbar .navbar-links.visible {
+    right: 3rem;
+    transition: 0.5s linear;
+  }
+  .hero-section .navbar-links a:hover {
+    color: var(--dark-milk);
+    border: none;
+  }
+  .navbar .nav-icons .fa-bars {
+    display: block;
+  }
+  #form .form-container form {
+    background-color: #b18158;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    width: 30%;
+    min-width: 500px;
+  }
+}
+
+/*Media Quaries max-width (926px) */
+@media (max-width: 926px) {
+  .hero-section .hero-content {
+    top: 70%;
+    left: 30%;
+    width: 40%;
+  }
+  .hero-section .hero-content h1 {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/*Media Quaries max-width (884px) */
+@media (max-width: 884px) {
+  .logo img {
+    width: 130px;
+    margin: -3rem 0 0 -3rem;
+  }
+  .hero-section .navbar {
+    height: 12vh;
+  }
+  .hero-section .navbar.scrolled .navbar-links a {
+    color: var(--brown);
+  }
+  .hero-section .navbar .search-form {
+    width: 70rem;
+  }
+  .hero-section .navbar .search-form.visible,
+  .hero-section .navbar .login-form.active {
+    right: 4rem;
+  }
+  .hero-section .hero-content {
+    left: 26%;
+    width: 37%;
+  }
+  #about .about-img img {
+    width: 360px;
+  }
+  #skills .skills-content {
+    flex-wrap: wrap; /* Prevent divs from wrapping on larger screens */
+  }
+}
+
+/*Media Quaries (max-width 834px) */
+@media (max-width: 834px) {
+}
+
+/*Media Quaries (max-width 768px)*/
+@media (max-width: 768px) {
+  .hero-section .navbar .search-form {
+    width: 40rem;
+  }
+}
+
+/*Media Quaries (max-width 700px)*/
+@media (max-width: 700px) {
+  .hero-section .hero-content {
+    top: 75%;
+    left: 32%;
+    width: 49%;
+  }
+}
+
+/*Media Quaries (max-width 590px) */
+@media (max-width: 590px) {
+  .hero-section .navbar .search-form {
+    width: 50rem;
+  }
+
+  .hero-section .navbar {
+    padding: 0 5rem;
+    height: 13vh;
+  }
+  .logo img {
+    width: 110px;
+    margin: -3rem 0 0 -3rem;
+  }
+  .hero-section .hero-content {
+    top: 75%;
+    left: 50%;
+    width: 81%;
+  }
+}
+
+/*Media Quaries (max-width 500px) */
+@media (max-width: 500px) {
+  .hero-section .navbar {
+    height: 12vh;
+    padding: 0.5rem 2rem;
+  }
+  .logo img {
+    width: 110px;
+    margin: -2rem 0 0 -2rem;
+  }
+  .hero-section .navbar .search-form {
+    width: 35rem;
+  }
+  .hero-section .hero-content {
+    top: 72%;
+    left: 42%;
+    width: 66%;
+  }
+  .hero-section .hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  #about {
+    padding: 8rem 8rem 10rem 3rem;
+  }
+  #about .about-content1 {
+    width: 40rem;
+  }
+  #form h1 {
+    font-size: 3rem;
+  }
+  #form .form-container form {
+    width: 30%;
+    min-width: 300px;
+  }
+}
+
+/*Media Quaries (max-width 412px) */
+@media (max-width: 412px) {
+  .hero-section .navbar {
+    height: 11vh;
+  }
+  .hero-section .navbar .search-form {
+    width: 32rem;
+  }
+  .hero-section .hero-content {
+    top: 72%;
+    left: 44%;
+    width: 70%;
+  }
+  #about .about-img img {
+    width: 320px;
+  }
+}
+
+/*Media Quaries (max-width 360px) */
+@media (max-width: 360px) {
+  .hero-section .navbar .search-form {
+    width: 30rem;
+  }
+  .hero-section .navbar .search-form.visible,
+  .hero-section .navbar .login-form.active {
+    right: 3rem;
+  }
+  .hero-section .hero-content {
+    top: 70%;
+    left: 49%;
+    width: 75%;
+  }
+  #about .about-img img {
+    width: 300px;
+  }
+}
+
+/*Media Quaries (max-width 320px) */
+@media (max-width: 320px) {
+  .hero-section .navbar {
+    height: 16vh;
+    padding: 1rem 2rem;
+  }
+  .hero-section .navbar .search-form {
+    width: 28rem;
+  }
+  .hero-section .navbar .search-form.visible,
+  .hero-section .navbar .login-form.active {
+    right: 2.5rem;
+  }
+  .hero-section .hero-content {
+    top: 59%;
+    left: 50%;
+    width: 81%;
+  }
+  .hero-section .navbar .search-form.visible,
+  .hero-section .navbar .login-form.active,
+  .hero-section .navbar .navbar-links.visible {
+    right: 1rem;
+  }
+  #about .about-img img {
+    width: 250px;
+  }
+}
