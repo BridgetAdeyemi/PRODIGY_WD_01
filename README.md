@@ -12,5 +12,5 @@ This project is a simple interactive navigation menu that changes its background
 - CSS        
 - JavaScript
 
-**Live Demo**
-https://bridgetadeyemi.github.io/PRODIGY_WD_01/
+**Live Demo**    
+Checkout the live version of the project here https://bridgetadeyemi.github.io/PRODIGY_WD_01/
